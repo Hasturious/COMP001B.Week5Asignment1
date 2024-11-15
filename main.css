@@ -43,6 +43,7 @@ header {
 
 main {
 	width: auto;
+	border: pink 5px solid;
 }
 
 p {
@@ -60,14 +61,25 @@ p {
 
 #footer-container {
 	width: auto;
+	border: blue 5px solid
 }
 
 #header-container {
 	width: auto;
+	border: brown 5px solid;
 }
 
 #main-container {
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
-	gap: 5px;
+}
+
+nav {
+	width: auto;
+	border: green 5px solid;
+}
+
+aside {
+	width: auto;
+	border: red 5px solid;
 }
