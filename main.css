@@ -37,14 +37,21 @@ h2 {
 	font-size: 2.25rem;
 }
 
+/*All code above is untouched*/
+
 header {
 	text-align: center;
 }
+
+/*The text within the header element is aligned in the center*/
 
 main {
 	width: auto;
 	border: pink 5px solid;
 }
+
+/*The content takes as much space in the main element as it needs
+also a pink border is drawn around it */
 
 p {
 	line-height: 140%;
@@ -55,31 +62,53 @@ p {
 	font-size: 22px;
 }
 
+/*Above is untouched*/
+
 #automotive, #maritime, #medical, #physics, #myths {
 	width: auto;
 }
+
+/*The content within the above classes takes all the space within their elements as it needs*/
 
 #footer-container {
 	width: auto;
 	border: blue 5px solid
 }
 
+/*The content takes as much space in the main element as it needs
+also a blue border is drawn around it */
+
 #header-container {
 	width: auto;
 	border: brown 5px solid;
 }
+
+/*The content takes as much space in the main element as it needs
+also a brown border is drawn around it */
 
 #main-container {
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
 }
 
+/*display: grid; shapes the main container which contains every section and the nav element into a wrapped grid
+grid-template-columns: 1fr 2fr 1fr; formats the grid into 3 columns, the 1st column takes 1/4 of the display,
+the 2nd 1/2, and the 3rd 1/4.*/
+
 nav {
 	width: auto;
 	border: green 5px solid;
 }
 
+/* The nav element's content takes as much space as afforded to it
+also a green border is drawn around it */
+
 aside {
 	width: auto;
 	border: red 5px solid;
 }
+
+/* The aside element's content takes as much space as afforded to it
+also a red border is drawn around it */
+
+/*All borders are better define the shape of the area the elements take*/
